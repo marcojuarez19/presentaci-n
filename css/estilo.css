@@ -1,0 +1,266 @@
+body{
+    font-family: "Lato";
+    margin: 0px;
+}
+
+h1{
+    font-family: "Source Sans Pro" sans-serif;
+}
+
+h2,h3,h4,h5,h6{
+    font-family: "Jost";
+}
+
+h1{
+    line-height: 70px;
+    font-size: 50px ;
+    font-weight: 250;
+    letter-spacing: -.2px;
+    color: white;
+    margin: 0px;
+}
+.hero strong{
+    color:#17BEBB;
+}
+
+.hero{
+    height: 400px;
+    /* background-size: 400px 375px; */
+    /* background-image: url(../imagenes/hero-foto.jpg);  */
+    background-color: #02141A;
+    /* background-repeat: no-repeat; */
+    /* background-position-x: right; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-details{
+    width: 500px;
+}
+
+.project-imageContainer{
+    width: 500px;
+}
+
+.header
+{
+    background-color:#021118;
+    color: white;
+    display: flex;
+    height: 124px;
+    justify-content: space-between;
+}
+.menu{
+    height: inherit;
+}
+.header ol li{
+    height: inherit;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+
+}
+
+.header ol {
+    margin: 0;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+    font-size: 20px;
+}
+
+
+.project{
+    border: 3px solid gray;
+    border-radius: 15px ;
+    padding: 20px;
+    margin: 10px;
+    margin-bottom: 15px;
+    background: white;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project_title{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.project_course{
+    margin: 0px 0px;
+    font-size: 17px;
+    color: gray;
+}
+.project_date{
+    font-size: 24px;
+    margin: 8px 0px;
+}
+.portfolio{ 
+    background: #fafafa;
+    padding: 20px;
+}
+.portfolio h2{
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding: 15px;
+    font-size: 30px;
+    color: #17BEBB;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.linkir{
+    text-decoration:underline;
+    color: #17BEBB;
+}
+.linki{
+    color: #17BEBB;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.project_descripion{
+    font-size: 25px;
+}
+.logo{
+    margin: 0px;
+}
+
+.footer{
+    background-color: #000a01;
+    color: white;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    height: 80px;
+}
+.footer a{
+    color: #0097d8;
+    text-decoration: underline;
+
+}
+.footer p{
+    font-size: 20px;
+}
+
+.footer img{
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.event{
+    /* border: 3px solid gray; */
+    margin: 10px;
+    width: 480px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: #c8e8f5;
+}
+.event-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.event img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+.event_imageContainer{
+    margin: 0px;
+}
+.event-details{
+    margin: 10px;
+    background-color: white;
+    margin-top: -45px;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.description{
+    text-align: left ;
+}
+
+.url {
+    border: 2px solid #00bbbc;
+    color: #005468;
+    border-radius: 7px;
+    padding:  4px 20px;
+    text-decoration: none;
+}
+.event_title{
+    margin-left: 20px;
+}
+.contact{
+    background-color:#0a526a ;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social_link{
+    /* border: 3px solid green; */
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.social_link.twitter{
+    background-image: url(../imagenes/images/twitter.svg);
+    background-size: 50px 50px;
+}
+.social_link.instagram{
+    background-image: url(../imagenes/images/instagram.svg);
+    background-size: 50px 50px;
+}
+
+.form-mail input{
+    background-image: url(../imagenes/images/envelope.svg);
+    border-radius: 8px;
+    padding: 10px 10px 10px 37px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 7px;
+}
+
+.form-mail button{
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    padding: 5px 20px;
+    color: white;
+    border: 1px solid;
+    border-radius: 7px;
+    width: 100px;
+    /* margin: 10px auto 0; */
+}
+.form-mail{
+    margin-left: 11px;
+
+}
+.container{
+     /* border: 2px solid red; */
+     width: 1000px;
+     margin: 0 auto;
+     display: inherit;
+     justify-content: inherit;
+     align-items: inherit;
+     height: inherit;
+     flex-wrap: inherit;
+}
